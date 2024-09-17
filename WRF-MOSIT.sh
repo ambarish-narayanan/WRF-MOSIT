@@ -1994,7 +1994,6 @@ if [ "$Ubuntu_64bit_GNU" = "1" ] && [ "$CMAQ_PICK" = "1" ]; then
     n=$(ls -lrt libioapi.a | wc -l)
     m=$(ls -rlt m3xtract | wc -l)
     if (( ( $n == 1 ) && ( $m == 1) )) then
-        then
         echo "All expected files created."
         
         else
